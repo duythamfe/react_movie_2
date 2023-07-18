@@ -1,0 +1,27 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 10px;
+    z-index: 999;
+}
+
+.backdrop {
+    position: relative;
+}
+
+.backdrop-img {
+    width: 100%;
+    height: 100vh;
+    min-height: 768px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        filter: blur(10px);
+    }
+
+}
